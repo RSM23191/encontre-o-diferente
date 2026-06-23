@@ -8,14 +8,7 @@ body{
 
 font-family:Arial,sans-serif;
 
-background:
-
-linear-gradient(
-135deg,
-#FFE082,
-#FFD180,
-#FFF3E0
-);
+background:#ffffff;
 
 min-height:100vh;
 
@@ -25,27 +18,22 @@ justify-content:center;
 
 padding:50px;
 
+color:#1e293b;
+
 }
 
 .container{
 
 width:850px;
 
-background:
-
-rgba(255,255,255,.80);
-
-backdrop-filter:
-
-blur(10px);
+background:#ffffff;
 
 padding:40px;
 
 border-radius:30px;
 
 box-shadow:
-
-0 20px 50px rgba(0,0,0,.15);
+0 15px 40px rgba(0,0,0,.12);
 
 }
 
@@ -53,15 +41,7 @@ header{
 
 text-align:center;
 
-padding-bottom:25px;
-
-margin-bottom:25px;
-
-border-bottom:
-
-3px dashed
-
-#ffd180;
+margin-bottom:30px;
 
 }
 
@@ -69,7 +49,7 @@ h1{
 
 font-size:56px;
 
-color:#ff7043;
+color:#0f172a;
 
 margin-bottom:10px;
 
@@ -77,7 +57,7 @@ margin-bottom:10px;
 
 .subtitulo{
 
-color:#666;
+color:#64748b;
 
 font-size:18px;
 
@@ -85,9 +65,7 @@ font-size:18px;
 
 .area-jogador{
 
-background:
-
-#fff8f2;
+background:#f8fafc;
 
 padding:25px;
 
@@ -101,9 +79,11 @@ label{
 
 display:block;
 
+font-weight:bold;
+
 margin-bottom:10px;
 
-font-weight:bold;
+color:#0f172a;
 
 }
 
@@ -113,15 +93,13 @@ width:100%;
 
 padding:18px;
 
-border-radius:14px;
-
-border:
-
-3px solid
-
-#ffd180;
-
 font-size:18px;
+
+border-radius:15px;
+
+border:2px solid #cbd5e1;
+
+background:white;
 
 margin-bottom:18px;
 
@@ -131,9 +109,7 @@ input:focus{
 
 outline:none;
 
-border-color:
-
-#ff7043;
+border-color:#1d4ed8;
 
 }
 
@@ -145,31 +121,32 @@ padding:18px;
 
 border:none;
 
-border-radius:14px;
+border-radius:15px;
 
 background:
 
 linear-gradient(
 90deg,
-#ff7043,
-#ff5722
+#1e3a8a,
+#2563eb
 );
 
 color:white;
 
 font-size:18px;
 
+font-weight:bold;
+
 cursor:pointer;
 
-transition:.3s;
+transition:.25s;
 
 }
 
 button:hover{
 
 transform:
-
-translateY(-4px);
+translateY(-3px);
 
 }
 
@@ -177,25 +154,21 @@ translateY(-4px);
 
 display:grid;
 
-grid-template-columns:
-
-1fr 1fr;
+grid-template-columns:1fr 1fr;
 
 gap:15px;
 
-background:
-
-#fff8e8;
+background:#f8fafc;
 
 padding:20px;
 
 border-radius:20px;
 
-margin-bottom:30px;
-
-font-weight:bold;
+margin-bottom:25px;
 
 font-size:20px;
+
+font-weight:bold;
 
 }
 
@@ -207,12 +180,9 @@ gap:18px;
 
 justify-content:center;
 
-margin-top:20px;
-
 }
 
-
-/* FRUTAS GRANDES */
+/* CARTÕES DAS FRUTAS */
 
 .fruta{
 
@@ -224,11 +194,11 @@ background:
 
 linear-gradient(
 135deg,
-#ffb74d,
-#ff7043
+#1e3a8a,
+#2563eb
 );
 
-border-radius:24px;
+border-radius:22px;
 
 display:flex;
 
@@ -243,41 +213,37 @@ cursor:pointer;
 transition:.25s;
 
 box-shadow:
-
-0 10px 20px rgba(0,0,0,.12);
+0 10px 20px rgba(37,99,235,.25);
 
 }
 
 .fruta:hover{
 
 transform:
+translateY(-5px)
+scale(1.06);
 
-translateY(-6px)
-scale(1.08);
+background:
 
-box-shadow:
-
-0 15px 30px rgba(0,0,0,.18);
-
-}
-
-.mensagem{
-
-margin-top:30px;
-
-text-align:center;
+linear-gradient(
+135deg,
+#172554,
+#1d4ed8
+);
 
 }
 
 #resultado{
 
-font-size:28px;
+margin-top:25px;
+
+text-align:center;
+
+font-size:30px;
 
 font-weight:bold;
 
-color:
-
-#ff5722;
+color:#1e3a8a;
 
 }
 
@@ -305,9 +271,7 @@ font-size:36px;
 
 .painel{
 
-grid-template-columns:
-
-1fr;
+grid-template-columns:1fr;
 
 }
 
