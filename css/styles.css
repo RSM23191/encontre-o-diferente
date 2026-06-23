@@ -1,162 +1,231 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
 
-font-family:Arial,sans-serif;
+    font-family:Arial,sans-serif;
 
-background:#f4f4f4;
+    background:
+    linear-gradient(
+        135deg,
+        #FFE082,
+        #FFCC80,
+        #FFF3E0
+    );
 
-padding:20px;
+    min-height:100vh;
 
-text-align:center;
+    display:flex;
 
-}
+    justify-content:center;
 
-header{
-
-margin-bottom:20px;
-
-}
-
-header h1{
-
-font-size:2rem;
-
-margin-bottom:10px;
+    padding:40px;
 
 }
 
-main{
+.container{
 
-max-width:900px;
+    width:900px;
 
-margin:auto;
+    background:white;
 
-}
+    padding:35px;
 
-section{
+    border-radius:25px;
 
-background:white;
-
-padding:20px;
-
-margin-bottom:20px;
-
-border-radius:12px;
+    box-shadow:
+    0 12px 35px rgba(0,0,0,0.15);
 
 }
 
-#inicio{
+h1{
 
-display:flex;
+    text-align:center;
 
-flex-direction:column;
+    color:#ff7043;
 
-gap:10px;
+    font-size:42px;
+
+    margin-bottom:10px;
+
+}
+
+.subtitulo{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.area-jogador{
+
+    background:#fff8f2;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    margin-bottom:20px;
 
 }
 
 input{
 
-padding:12px;
+    width:100%;
 
-font-size:16px;
+    padding:16px;
 
-border-radius:8px;
+    border-radius:12px;
 
-border:1px solid #ccc;
+    border:2px solid #ddd;
+
+    margin-top:10px;
+
+    margin-bottom:15px;
+
+    font-size:18px;
+
+}
+
+input:focus{
+
+    outline:none;
+
+    border-color:#ff7043;
 
 }
 
 button{
 
-padding:12px;
+    width:100%;
 
-font-size:16px;
+    padding:16px;
 
-border:none;
+    border:none;
 
-border-radius:10px;
+    border-radius:12px;
 
-cursor:pointer;
+    background:#ff7043;
 
-background:#2e7d32;
+    color:white;
 
-color:white;
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:0.3s;
 
 }
 
 button:hover{
 
-opacity:0.9;
+    transform:translateY(-3px);
+
+    background:#f4511e;
 
 }
 
-#painel{
+.painel{
 
-display:flex;
+    margin-top:20px;
 
-justify-content:center;
+    background:#fff3e0;
 
-gap:20px;
+    padding:20px;
 
-flex-wrap:wrap;
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:space-around;
+
+    font-weight:bold;
+
+    font-size:18px;
 
 }
 
 #tabuleiro{
 
-display:grid;
+    margin-top:25px;
 
-grid-template-columns:repeat(3,1fr);
+    display:grid;
 
-gap:10px;
+    gap:15px;
 
-margin-top:20px;
-
-}
-
-.celula{
-
-height:90px;
-
-font-size:40px;
-
-border-radius:10px;
-
-border:2px solid #ddd;
-
-background:white;
-
-cursor:pointer;
+    justify-content:center;
 
 }
 
-#resultado{
+.fruta{
 
-display:none;
+    width:90px;
+
+    height:90px;
+
+    background:white;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:42px;
+
+    cursor:pointer;
+
+    transition:0.25s;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+.fruta:hover{
+
+    transform:scale(1.08);
+
+    background:#FFE0B2;
+
+}
+
+.mensagem{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    font-size:22px;
+
+    color:#e65100;
 
 }
 
 @media(max-width:700px){
 
-#painel{
+.container{
 
-flex-direction:column;
+width:100%;
 
 }
 
-.celula{
+.fruta{
+
+width:70px;
 
 height:70px;
 
-font-size:28px;
+font-size:32px;
 
 }
 
 }
-
