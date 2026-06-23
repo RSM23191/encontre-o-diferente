@@ -1,5 +1,3 @@
-# Encontre o diferente
-
 ## Nome
 
 R A Y  S I L V A  M A T O S
