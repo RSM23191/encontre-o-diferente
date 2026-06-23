@@ -6,7 +6,10 @@ box-sizing:border-box;
 
 body{
 
-font-family:Arial,sans-serif;
+font-family:
+"Segoe UI",
+Tahoma,
+sans-serif;
 
 background:#ffffff;
 
@@ -16,52 +19,64 @@ display:flex;
 
 justify-content:center;
 
-padding:50px;
+padding:40px;
 
-color:#1e293b;
+color:#0f172a;
 
 }
 
 .container{
 
-width:850px;
+width:900px;
 
 background:#ffffff;
 
 padding:40px;
 
-border-radius:30px;
+border-radius:32px;
 
 box-shadow:
-0 15px 40px rgba(0,0,0,.12);
+0 20px 50px rgba(0,0,0,.12);
 
 }
+
+
+/* CABEÇALHO */
 
 header{
 
 text-align:center;
 
-margin-bottom:30px;
+margin-bottom:35px;
 
 }
 
 h1{
 
-font-size:56px;
+font-size:64px;
+
+font-weight:900;
+
+letter-spacing:-2px;
 
 color:#0f172a;
 
-margin-bottom:10px;
+margin-bottom:12px;
 
 }
 
 .subtitulo{
 
+font-size:22px;
+
+font-weight:500;
+
 color:#64748b;
 
-font-size:18px;
-
 }
+
+
+/* FORM */
 
 .area-jogador{
 
@@ -69,9 +84,9 @@ background:#f8fafc;
 
 padding:25px;
 
-border-radius:20px;
+border-radius:22px;
 
-margin-bottom:25px;
+margin-bottom:28px;
 
 }
 
@@ -79,9 +94,11 @@ label{
 
 display:block;
 
-font-weight:bold;
+font-size:20px;
 
-margin-bottom:10px;
+font-weight:700;
+
+margin-bottom:12px;
 
 color:#0f172a;
 
@@ -91,17 +108,17 @@ input{
 
 width:100%;
 
-padding:18px;
+padding:20px;
 
-font-size:18px;
+font-size:22px;
 
-border-radius:15px;
+border-radius:16px;
 
 border:2px solid #cbd5e1;
 
 background:white;
 
-margin-bottom:18px;
+margin-bottom:20px;
 
 }
 
@@ -109,19 +126,22 @@ input:focus{
 
 outline:none;
 
-border-color:#1d4ed8;
+border-color:#2563eb;
 
 }
+
+
+/* BOTÃO */
 
 button{
 
 width:100%;
 
-padding:18px;
+padding:20px;
 
 border:none;
 
-border-radius:15px;
+border-radius:16px;
 
 background:
 
@@ -133,9 +153,11 @@ linear-gradient(
 
 color:white;
 
-font-size:18px;
+font-size:24px;
 
-font-weight:bold;
+font-weight:700;
+
+letter-spacing:.5px;
 
 cursor:pointer;
 
@@ -150,27 +172,41 @@ translateY(-3px);
 
 }
 
+
+/* PAINEL */
+
 .painel{
 
 display:grid;
 
-grid-template-columns:1fr 1fr;
+grid-template-columns:
 
-gap:15px;
+1fr 1fr;
+
+gap:18px;
 
 background:#f8fafc;
 
-padding:20px;
+padding:24px;
 
-border-radius:20px;
+border-radius:22px;
 
-margin-bottom:25px;
+margin-bottom:30px;
 
-font-size:20px;
+font-size:28px;
 
-font-weight:bold;
+font-weight:700;
 
 }
+
+.painel div{
+
+padding:8px;
+
+}
+
+
+/* TABULEIRO */
 
 #tabuleiro{
 
@@ -180,9 +216,12 @@ gap:18px;
 
 justify-content:center;
 
+margin-top:20px;
+
 }
 
-/* CARTÕES DAS FRUTAS */
+
+/* FRUTAS */
 
 .fruta{
 
@@ -198,7 +237,7 @@ linear-gradient(
 #2563eb
 );
 
-border-radius:22px;
+border-radius:24px;
 
 display:flex;
 
@@ -213,15 +252,17 @@ cursor:pointer;
 transition:.25s;
 
 box-shadow:
-0 10px 20px rgba(37,99,235,.25);
+
+0 10px 24px rgba(37,99,235,.25);
 
 }
 
 .fruta:hover{
 
 transform:
-translateY(-5px)
-scale(1.06);
+
+translateY(-6px)
+scale(1.08);
 
 background:
 
@@ -233,15 +274,18 @@ linear-gradient(
 
 }
 
+
+/* RESULTADO */
+
 #resultado{
 
 margin-top:25px;
 
+font-size:34px;
+
+font-weight:800;
+
 text-align:center;
-
-font-size:30px;
-
-font-weight:bold;
 
 color:#1e3a8a;
 
@@ -252,6 +296,9 @@ color:#1e3a8a;
 margin-top:20px;
 
 }
+
+
+/* RESPONSIVO */
 
 @media(max-width:700px){
 
@@ -265,13 +312,21 @@ padding:25px;
 
 h1{
 
-font-size:36px;
+font-size:42px;
+
+}
+
+.subtitulo{
+
+font-size:18px;
 
 }
 
 .painel{
 
 grid-template-columns:1fr;
+
+font-size:22px;
 
 }
 
@@ -282,6 +337,12 @@ width:90px;
 height:90px;
 
 font-size:48px;
+
+}
+
+button{
+
+font-size:20px;
 
 }
 
