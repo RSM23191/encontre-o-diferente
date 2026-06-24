@@ -29,14 +29,13 @@ Para atender esse público, o jogo foi pensado para não depender apenas das cor
 Decisões tomadas:
 
 * Uso de emojis diferentes;
-* Elementos grandes;
 * Interface simples;
 * Pouca informação na tela;
 * Fácil identificação dos elementos.
 
 ---
 
-# Regras do jogo
+# Regras do Jogo
 
 1. Digite seu nome.
 2. Clique em **Jogar**.
