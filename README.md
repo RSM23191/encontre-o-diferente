@@ -35,7 +35,7 @@ Decisões tomadas:
 
 ---
 
-# Regras do Jogo
+# Regras
 
 1. Digite seu nome.
 2. Clique em **Jogar**.
