@@ -122,11 +122,7 @@ function gerarGrid() {
 
 tabuleiro.replaceChildren();
 
-/*
-decidi criar os elementos
-usando DOM porque
-a atividade proíbe innerHTML
-*/
+
 
 let tamanho = 3;
 
@@ -195,11 +191,7 @@ i < total;
 i++
 ) {
 
-/*
-guardei no dataset
-qual botão é o correto
-para validar o clique
-*/
+
 
 const celula =
 document.createElement(
