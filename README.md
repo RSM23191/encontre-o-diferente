@@ -22,13 +22,13 @@ O jogador precisa localizar rapidamente a fruta diferente entre várias iguais.
 
 ## Briefing do cliente
 
-Criança
+Criança de 6 anos
 
 O jogo foi desenvolvido para uma criança de 6 anos, buscando uma experiência divertida, simples e fácil de entender.
 
 Decisões tomadas:
 
-* Uso de frutas em emoji para deixar o jogo mais divertido;
+* Usei de frutas em emoji para deixar o jogo mais divertido;
 * Interface colorida e amigável;
 * Pouca informação na tela para evitar distrações;
 * Aumento gradual da dificuldade;
