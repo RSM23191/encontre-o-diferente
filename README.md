@@ -22,16 +22,17 @@ O jogador precisa localizar rapidamente a fruta diferente entre várias iguais.
 
 ## Briefing do cliente
 
-Pessoa daltônica
+Criança
 
-Para atender esse público, o jogo foi pensado para não depender apenas das cores.
+O jogo foi desenvolvido para uma criança de 6 anos, buscando uma experiência divertida, simples e fácil de entender.
 
 Decisões tomadas:
 
-* Uso de emojis diferentes;
-* Interface simples;
-* Pouca informação na tela;
-* Fácil identificação dos elementos.
+* Uso de frutas em emoji para deixar o jogo mais divertido;
+* Interface colorida e amigável;
+* Pouca informação na tela para evitar distrações;
+* Aumento gradual da dificuldade;
+* Visual simples para incentivar a identificação rápida.
 
 ---
 
@@ -162,8 +163,7 @@ Para incentivar atenção sem punir excessivamente os erros.
 
 ## 3. Como o briefing do cliente mudou suas decisões?
 
-Como o cliente era uma pessoa daltônica, evitei depender apenas das cores.
-
+Como o cliente era uma criança, priorizei um visual simples,cores chamativas, poucas informações e regras simples.
 ---
 
 ## 4. Se tivesse mais uma semana, o que mudaria?
